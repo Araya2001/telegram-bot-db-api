@@ -8,11 +8,11 @@
     <packaging>war</packaging>
     <properties>
         <openliberty.maven.version>3.5.1</openliberty.maven.version>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.target>17</maven.compiler.target>
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <jaeger.client.version>1.5.0</jaeger.client.version>
         <slf4j.jdk.version>1.7.30</slf4j.jdk.version>
-        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.source>17</maven.compiler.source>
         <final.name>telegram-bot-db-api</final.name>
         <slf4j.api.version>1.7.30</slf4j.api.version>
     </properties>
@@ -20,7 +20,7 @@
         <dependency>
             <groupId>org.eclipse.microprofile</groupId>
             <artifactId>microprofile</artifactId>
-            <version>4.1</version>
+            <version>5.0</version>
             <type>pom</type>
             <scope>provided</scope>
         </dependency>
